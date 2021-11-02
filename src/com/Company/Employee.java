@@ -34,11 +34,13 @@ public class Employee {
 	   		
 		case 1:
 			
-			wages=160 * 20;
+     	   wages=((100/20)*20)*20 ;
+;
 	   		System.out.println("Employee is present & PartTime  with wages = " + wages);
 	   		
 		case 2:
-			wages=160 * 20;
+     	   wages=((100/20)*20)*20 ;
+;
 	   		System.out.println("Employee is present & FullTime  with wages = " + wages);
 			
 		
