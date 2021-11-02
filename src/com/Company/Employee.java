@@ -28,17 +28,17 @@ public class Employee {
 		switch(val) {
 		
 		case 0:
-	         wages=0;
+	         wages=0 * 20;
 	   		System.out.println("Employee is absent with wages = " + wages);		
 	   	
 	   		
 		case 1:
 			
-			wages=160;
+			wages=160 * 20;
 	   		System.out.println("Employee is present & PartTime  with wages = " + wages);
 	   		
 		case 2:
-			wages=160;
+			wages=160 * 20;
 	   		System.out.println("Employee is present & FullTime  with wages = " + wages);
 			
 		
