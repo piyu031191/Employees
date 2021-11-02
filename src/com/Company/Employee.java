@@ -6,20 +6,47 @@ public class Employee {
 		double present =Math.floor(Math.random()*2);
 		double partTime =Math.floor(Math.random()*2);
 		int wages; 
+		int val=0;
+		
 
 		if(present == 1) {
      	   if(partTime == 1) {
-	
-			wages=160;
-	   		System.out.println("Employee is present & PartTime  with wages = " + wages);
+	              val=1;
+	            	  
+			
      	   }
      	   else {
-	    	wages=160;
-	   		System.out.println("Employee is present & FullTime  with wages = " + wages);
+	    	      val=2;
+	    	      
      	   }
 		} 
 		else {
+             val=0;
+             
+		}
+		
+		switch(val) {
+		
+		case 0:
 	         wages=0;
-	   		System.out.println("Employee is absent with wages = " + wages);		}
+	   		System.out.println("Employee is absent with wages = " + wages);		
+	   	
+	   		
+		case 1:
+			
+			wages=160;
+	   		System.out.println("Employee is present & PartTime  with wages = " + wages);
+	   		
+		case 2:
+			wages=160;
+	   		System.out.println("Employee is present & FullTime  with wages = " + wages);
+			
+		
+		
+		
+		
+		
+		
+		}
 	}
 }
